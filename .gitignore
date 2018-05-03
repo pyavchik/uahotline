@@ -1,9 +1,17 @@
 results/
-.idea
+.idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Robot Framework
+log.html
+output.xml
+report.html
+
+# Python
+*.pyc
 
 # C extensions
 *.so
