@@ -2,7 +2,7 @@
 Open home page
     Open Browser                        ${Base_url}   ${Browser}
 
-Serch for item
+Search for item
     Input Text                          ${InputTextFieldID}  ${ProductItem}
     Click Button                        ${SearchButtonXpath}
     Wait Until Page Contains Element    ${FirstResultLinkXpath}

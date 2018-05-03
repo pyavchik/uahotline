@@ -7,7 +7,7 @@ Resource  ../keywords/constants.robot
 ${ProductItem}   iPhone 7
 
 *** Test Cases ***
-Open first link with
+Search item from home page
     Open home page
-    Serch for item
+    Search for item
     Exit
