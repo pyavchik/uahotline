@@ -1,7 +1,5 @@
 *** Settings ***
-Resource  ../pages/HomePage.robot
 Resource  ../keywords/keywords.robot
-Resource  ../keywords/constants.robot
 
 *** Variables ***
 ${ProductItem}   iPhone 7
@@ -9,5 +7,6 @@ ${ProductItem}   iPhone 7
 *** Test Cases ***
 Search item from home page
     Open home page
+    Close confirm city dropdown
     Search for item
     Exit
