@@ -1,4 +1,4 @@
-# uahotline
+# uahotline (robotframework)
 If you already have [Python](https://www.python.org) , [Pip](http://pip-installer.org) and [Robotframework](http://robotframework.org) installed, you can simply run in terminal:
 
 * `git clone https://github.com/pyavchik/uahotline.git`
